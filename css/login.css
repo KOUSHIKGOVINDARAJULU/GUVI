@@ -1,0 +1,19 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+#forms{
+    padding-top: 5%;
+}
+#main{
+    padding-left:350px; 
+    padding-right:350px;
+    padding-top: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+#agree{
+    text-align: center;
+}

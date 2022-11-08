@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href=".\css\login.css">
+</head>
+
+<body>
+  <div id="main">
+    <div class="jumbotron">
+      <h1 style="text-align: center;font-size: 30px;font-weight: 800;">LOGIN</h1>
+      <div id="bg">
+        <form id = 'form' method="post">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label id="Email">Email</label>
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                  
+                </div>
+                <div class="form-group col-md-6">
+                  <label id="password">Password</label>
+                  <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                  
+                </div>
+            </div>
+                <div class="text-center">
+                    <input type="submit" onclick="event" class="btn btn-primary" id="submit">
+                </div>
+                <div id="thank_you_msg">
+                </div><br>
+                <div id="test">
+
+                </div>
+        </form>
+      </div>
+      <script src=".\js\login.js"></script> 
+    </div>
+  </div>
+</body>
+</html>
